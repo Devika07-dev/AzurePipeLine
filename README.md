@@ -79,21 +79,21 @@ make test
 ### 1. Successful Linting and Testing in Azure Cloud Shell
 This screenshot shows the project running in Azure Cloud Shell with successful execution of both lint checks and unit tests using the Makefile.
  
-![Cloud Shell Lint and Test Success](./Screenshots/Test_Success.png)
+![Cloud Shell Lint and Test Success](./Screenshots/TestSuccess.png)
  
 ---
  
 ### 2. Successful Continuous Integration Using GitHub Actions
 This screenshot demonstrates a successful GitHub Actions pipeline run, confirming that Continuous Integration is working correctly with automated linting and testing.
  
-![GitHub Actions Build Success](./Screenshots/GitPipeline_build.png)
+![GitHub Actions Build Success](./Screenshots/GitPipelinebuild.png)
  
 ---
  
 ### 3. Successful Deployment Using Azure Pipelines
 This screenshot shows a successful Azure Pipeline execution, confirming Continuous Delivery and deployment of the application to Azure services.
  
-![Azure Pipeline Build Success](./Screenshots/AzurePipeline_build.png)
+![Azure Pipeline Build Success](./Screenshots/AzurePipelinebuild.png)
 
 ## 4.Azure Pipeline – Successful Run
  
@@ -112,12 +112,12 @@ This screenshot shows:
  
 The Successful Creation of Azure webapp Azure Cloud Shell.
 
-![Creation of Webapp in Cloud shell](./Screenshots/Azurewebappcreationsucceeful.png)
+![Creation of Webapp in Cloud shell](./Screenshots/AppServiceCreated.png)
 
 ---
 ## 6.Screenshot of Project deployed in Azure
 
-![Project deployed in Azure](./Screenshots/ProjectDeployedintoAzure.png)
+![Project deployed in Azure](./Screenshots/AppServiceSuccess.png)
 
 ---
 
