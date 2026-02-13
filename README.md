@@ -99,7 +99,7 @@ This screenshot shows a successful Azure Pipeline execution, confirming Continuo
  
 The CI/CD pipeline successfully builds and deploys the application.
  
-![Creating Azure Web App](./Screenshots/CreatingAzurewebapp.png)
+![Creating Azure Web App](./Screenshots/CreatingAppService.png)
  
 This screenshot shows:
 - Pipeline run with green checkmark
