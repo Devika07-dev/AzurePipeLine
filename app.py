@@ -29,6 +29,7 @@ def home():
 def predict():
     try:
         import os
+
         MODEL_PATH = os.path.join(
             os.path.dirname(_file_),
             "Housing_price_model",
@@ -36,6 +37,7 @@ def predict():
         )
 
         clf = joblib.load(MODEL_PATH)
+
         json_payload = request.get_json(force=True)
         inference_payload = pd.DataFrame(json_payload)
 
@@ -43,7 +45,6 @@ def predict():
         return jsonify({"prediction": prediction.tolist()})
 
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
-        
+        return jsonify({"error": str(e)}), 500        
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000, debug=True)
